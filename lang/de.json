@@ -1,0 +1,18 @@
+{
+    "Webmetic": {
+        "Companies": "Unternehmen",
+        "ColumnCompanyName": "Unternehmen",
+        "ColumnCompanyNamePlural": "Unternehmen",
+        "ColumnCompanyId": "Unternehmens-ID",
+        "WidgetCompanies": "Erkannte Unternehmen",
+        "CompaniesReportDocumentation": "Von Webmetic identifizierte Unternehmen Ihrer Website-Besucher. Besuche ohne erkanntes Unternehmen werden nicht aufgeführt.",
+        "SettingEnabled": "Unternehmenserkennung aktivieren",
+        "SettingEnabledDescription": "Wenn aktiviert, wird der sha256-Hash jeder Besucher-IP an die Webmetic-API gesendet, um das besuchende Unternehmen zu identifizieren. Roh-IP-Adressen werden niemals übertragen. Details siehe Plugin-Dokumentation.",
+        "SettingApiKey": "Data-Layer-API-Schlüssel",
+        "SettingApiKeyDescription": "Ihr Webmetic Data-Layer-API-Schlüssel (wmtc_...).",
+        "SettingApiKeyHelp": "Ihren Schlüssel finden oder erstellen Sie im %1$sWebmetic-Dashboard%2$s unter API-Details.",
+        "SettingApiKeyInvalid": "Dies scheint kein gültiger Webmetic API-Schlüssel zu sein (erwartetes Format: wmtc_..._...).",
+        "ApiKeyRejected": "Die Webmetic-API hat diesen Schlüssel abgelehnt. Bitte prüfen Sie, ob Sie den Data-Layer-API-Schlüssel aus Ihrem Webmetic-Dashboard kopiert haben.",
+        "ApiKeyCheckFailed": "Der Schlüssel konnte nicht geprüft werden — die Webmetic-API ist von diesem Server aus derzeit nicht erreichbar. Bitte versuchen Sie es erneut."
+    }
+}

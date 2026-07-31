@@ -1,0 +1,18 @@
+{
+    "Webmetic": {
+        "Companies": "Companies",
+        "ColumnCompanyName": "Company",
+        "ColumnCompanyNamePlural": "Companies",
+        "ColumnCompanyId": "Company ID",
+        "WidgetCompanies": "Identified companies",
+        "CompaniesReportDocumentation": "Companies identified for your visitors by Webmetic B2B visitor identification. Visits without an identified company are not listed.",
+        "SettingEnabled": "Enable company identification",
+        "SettingEnabledDescription": "When enabled, the sha256 hash of each visitor IP is sent to the Webmetic API to identify the visiting company. Raw IP addresses are never transmitted. See the plugin documentation for privacy details.",
+        "SettingApiKey": "Data Layer API key",
+        "SettingApiKeyDescription": "Your Webmetic Data Layer API key (wmtc_...).",
+        "SettingApiKeyHelp": "You can find or create your key in the %1$sWebmetic dashboard%2$s under API details.",
+        "SettingApiKeyInvalid": "This does not look like a valid Webmetic API key (expected format: wmtc_..._...).",
+        "ApiKeyRejected": "The Webmetic API rejected this key. Please check that you copied the Data Layer API key from your Webmetic dashboard.",
+        "ApiKeyCheckFailed": "The key could not be verified — the Webmetic API is currently not reachable from this server. Please try again."
+    }
+}
