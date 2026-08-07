@@ -4,6 +4,7 @@
         "ColumnCompanyName": "Company",
         "ColumnCompanyNamePlural": "Companies",
         "ColumnCompanyId": "Company ID",
+        "ColumnIndustry": "Industry",
         "WidgetCompanies": "Identified companies",
         "CompaniesReportDocumentation": "Companies identified for your visitors by Webmetic B2B visitor identification. Visits without an identified company are not listed.",
         "SettingEnabled": "Enable company identification",

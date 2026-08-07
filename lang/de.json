@@ -4,6 +4,7 @@
         "ColumnCompanyName": "Unternehmen",
         "ColumnCompanyNamePlural": "Unternehmen",
         "ColumnCompanyId": "Unternehmens-ID",
+        "ColumnIndustry": "Branche",
         "WidgetCompanies": "Erkannte Unternehmen",
         "CompaniesReportDocumentation": "Von Webmetic identifizierte Unternehmen Ihrer Website-Besucher. Besuche ohne erkanntes Unternehmen werden nicht aufgeführt.",
         "SettingEnabled": "Unternehmenserkennung aktivieren",

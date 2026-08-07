@@ -11,6 +11,7 @@ class VisitorDetails extends VisitorDetailsAbstract
     {
         $visitor['webmeticCompanyId']   = $this->details['webmetic_company_id'] ?? null;
         $visitor['webmeticCompanyName'] = $this->details['webmetic_company_name'] ?? null;
+        $visitor['webmeticIndustry']    = $this->details['webmetic_industry'] ?? null;
     }
 
     public function renderVisitorDetails($visitorDetails)

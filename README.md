@@ -84,6 +84,12 @@ The lookup endpoint is fixed. For staging/tests it can be overridden without UI 
 
 ## Changelog
 
+### 0.3.0
+- New **Industry** dimension and segment: identified visits are classified into
+  19 marketing-ready industry categories (e.g. "IT, Software & Telekommunikation").
+  Filter Users Flow, heatmaps, or any Matomo report by industry.
+- Visitor log shows the industry next to the company name.
+
 ### 0.2.2
 - The API key is now verified live against the Webmetic API when saving the
   settings: rejected keys and connectivity problems show a clear error message
