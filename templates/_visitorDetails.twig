@@ -1,6 +1,6 @@
 <div class="visitor-profile-info">
     <span title="{{ 'Webmetic_ColumnCompanyName'|translate }}{% if visitInfo.webmeticCompanyId %} ({{ visitInfo.webmeticCompanyId }}){% endif %}">
         <strong>{{ 'Webmetic_ColumnCompanyName'|translate }}:</strong>
-        {{ visitInfo.webmeticCompanyName }}{% if visitInfo.webmeticIndustry %} — {{ visitInfo.webmeticIndustry }}{% endif %}
+        {{ visitInfo.webmeticCompanyName }}{% if visitInfo.webmeticIndustry %} — {{ visitInfo.webmeticIndustry }}{% endif %}{% if visitInfo.webmeticCompanySize %} · {{ visitInfo.webmeticCompanySize }} {{ 'Webmetic_Employees'|translate }}{% endif %}{% if visitInfo.webmeticRevenue %} · {{ visitInfo.webmeticRevenue }}{% endif %}
     </span>
 </div>

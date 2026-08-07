@@ -84,6 +84,12 @@ The lookup endpoint is fixed. For staging/tests it can be overridden without UI 
 
 ## Changelog
 
+### 0.4.0
+- New **Company size** and **Revenue class** dimensions and segments (employee and
+  revenue ranges). Together with Industry this completes the target-group matrix:
+  filter any report, Users Flow, or heatmap by industry × size × revenue.
+- Visitor log shows size and revenue next to company name and industry.
+
 ### 0.3.0
 - New **Industry** dimension and segment: identified visits are classified into
   19 marketing-ready industry categories (e.g. "IT, Software & Telekommunikation").
