@@ -15,7 +15,7 @@ class CompanyName extends VisitDimension
     protected $segmentName  = 'webmeticCompany';
     protected $nameSingular = 'Webmetic_ColumnCompanyName';
     protected $namePlural   = 'Webmetic_ColumnCompanyNamePlural';
-    protected $category     = 'General_Visitors';
+    protected $category     = 'Webmetic_SegmentCategory';
     protected $acceptValues = 'Siemens AG, SAP SE, etc.';
     protected $type = self::TYPE_TEXT;
 

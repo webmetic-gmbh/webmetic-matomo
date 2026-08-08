@@ -14,7 +14,7 @@ class Industry extends VisitDimension
     protected $columnType   = 'VARCHAR(100) DEFAULT NULL';
     protected $segmentName  = 'webmeticIndustry';
     protected $nameSingular = 'Webmetic_ColumnIndustry';
-    protected $category     = 'General_Visitors';
+    protected $category     = 'Webmetic_SegmentCategory';
     protected $acceptValues = 'IT, Software & Telekommunikation, Industrie & Fertigung, etc.';
     protected $type = self::TYPE_TEXT;
 

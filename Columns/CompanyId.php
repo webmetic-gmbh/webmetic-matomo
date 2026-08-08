@@ -14,7 +14,8 @@ class CompanyId extends VisitDimension
     protected $columnType   = 'VARCHAR(64) DEFAULT NULL';
     protected $segmentName  = 'webmeticCompanyId';
     protected $nameSingular = 'Webmetic_ColumnCompanyId';
-    protected $category     = 'General_Visitors';
+    protected $category     = 'Webmetic_SegmentCategory';
+    protected $acceptValues = 'siemens-ag, acme-berlin-gmbh, etc.';
     protected $type = self::TYPE_TEXT;
 
     public function onNewVisit(Request $request, Visitor $visitor, $action)

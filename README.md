@@ -84,6 +84,11 @@ The lookup endpoint is fixed. For staging/tests it can be overridden without UI 
 
 ## Changelog
 
+### 0.4.1
+- All Webmetic segments are grouped under their own "Webmetic" category in the
+  segment editor and prefixed with "Webmetic" so their origin is always clear.
+- Example values (tooltips) for every segment, including company ID.
+
 ### 0.4.0
 - New **Company size** and **Revenue class** dimensions and segments (employee and
   revenue ranges). Together with Industry this completes the target-group matrix:

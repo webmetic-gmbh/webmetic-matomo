@@ -1,7 +1,7 @@
 {
     "name": "Webmetic",
     "description": "B2B visitor identification: see which companies visit your website. Adds a Companies report, dashboard widget, visitor log details and segments.",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "theme": false,
     "require": {
         "matomo": ">=5.0.0-b1,<6.0.0-b1"

@@ -14,7 +14,7 @@ class CompanySize extends VisitDimension
     protected $columnType   = 'VARCHAR(20) DEFAULT NULL';
     protected $segmentName  = 'webmeticCompanySize';
     protected $nameSingular = 'Webmetic_ColumnCompanySize';
-    protected $category     = 'General_Visitors';
+    protected $category     = 'Webmetic_SegmentCategory';
     protected $acceptValues = '1-10, 11-50, 51-200, 201-500, etc.';
     protected $type = self::TYPE_TEXT;
 
