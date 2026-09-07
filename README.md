@@ -79,7 +79,7 @@ The lookup endpoint is fixed. For staging/tests it can be overridden without UI 
 ## Support
 
 - Email: [info@webmetic.de](mailto:info@webmetic.de)
-- Issues: [GitHub](https://github.com/webmetic/matomo-plugin/issues)
+- Issues: [GitHub](https://github.com/webmetic-gmbh/webmetic-matomo/issues)
 - Documentation: [webmetic.de](https://webmetic.de)
 
 ## Changelog
