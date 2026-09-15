@@ -79,10 +79,15 @@ The lookup endpoint is fixed. For staging/tests it can be overridden without UI 
 ## Support
 
 - Email: [info@webmetic.de](mailto:info@webmetic.de)
-- Issues: [GitHub](https://github.com/webmetic/matomo-plugin/issues)
+- Issues: [GitHub](https://github.com/webmetic-gmbh/webmetic-matomo/issues)
 - Documentation: [webmetic.de](https://webmetic.de)
 
 ## Changelog
+
+### 1.0.0
+- First public release on the Matomo Marketplace. No functional changes over
+  0.4.1; the plugin has been running in production since July 2026 and is
+  verified on Matomo 5.13 with PHP 8.4.
 
 ### 0.4.1
 - All Webmetic segments are grouped under their own "Webmetic" category in the
