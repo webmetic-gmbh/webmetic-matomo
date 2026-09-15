@@ -1,0 +1,17 @@
+<div class="visitor-profile-summary visitor-profile-webmetic">
+    <h1>{{ 'Webmetic_ProfileSummaryName'|translate }}</h1>
+    <div>
+        <p{% if webmetic.companyId %} title="{{ webmetic.companyId }}"{% endif %}>
+            <strong>{{ webmetic.companyName }}</strong>
+        </p>
+        {% if webmetic.industry %}
+            <p><span>{{ 'Webmetic_ColumnIndustry'|translate }}: </span><strong>{{ webmetic.industry }}</strong></p>
+        {% endif %}
+        {% if webmetic.companySize %}
+            <p><span>{{ 'Webmetic_ColumnCompanySize'|translate }}: </span><strong>{{ webmetic.companySize }} {{ 'Webmetic_Employees'|translate }}</strong></p>
+        {% endif %}
+        {% if webmetic.revenue %}
+            <p><span>{{ 'Webmetic_ColumnRevenue'|translate }}: </span><strong>{{ webmetic.revenue }}</strong></p>
+        {% endif %}
+    </div>
+</div>
