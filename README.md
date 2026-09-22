@@ -84,6 +84,12 @@ The lookup endpoint is fixed. For staging/tests it can be overridden without UI 
 
 ## Changelog
 
+### 1.1.0
+- Visitor profile shows a Webmetic block with company name, industry, size and
+  revenue class of the visitor's most recent identified visit.
+- Privacy: diagnostic log output no longer includes exception messages, which
+  could contain the lookup URL with the hashed IP. Only the error type is logged.
+
 ### 1.0.0
 - First public release on the Matomo Marketplace. No functional changes over
   0.4.1; the plugin has been running in production since July 2026 and is

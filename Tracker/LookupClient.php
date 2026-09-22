@@ -38,7 +38,8 @@ class LookupClient
         try {
             return self::doGetCompany($request, $visitor);
         } catch (\Exception $e) {
-            Common::printDebug('Webmetic lookup failed: ' . $e->getMessage());
+            // no exception message: it may contain the request URL with the IP hash
+            Common::printDebug('Webmetic: lookup failed (' . get_class($e) . ')');
             return null;
         }
     }
@@ -196,7 +197,7 @@ class LookupClient
                 $additionalHeaders = ['Authorization: ' . $config['Webmetic.apiKey']]
             );
         } catch (\Exception $e) {
-            Common::printDebug('Webmetic: lookup HTTP error: ' . $e->getMessage());
+            Common::printDebug('Webmetic: lookup HTTP error (' . get_class($e) . ')');
             $cache->store($ipHash, null, self::ERROR_TTL);
             return null;
         }
